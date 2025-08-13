@@ -1,10 +1,4 @@
-.container {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.item {
-    width: 10em;
+body {
+    background-color: #292929;
+    color: black; /* default text color */
 }
