@@ -2,3 +2,20 @@ body {
     background-color: #292929;
     color: black; /* default text color */
 }
+.container {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    height: 100vh;           /* Full viewport height */
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    border: 3px solid black;
+    text-align: center;
+    background-color: #393939;
+}
+td:hover{
+    background-color: #696969 ;
+}
