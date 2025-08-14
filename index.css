@@ -1,6 +1,7 @@
 body {
     background-color: #292929;
     color: black; /* default text color */
+    font-family: Arial,sans-serif;
 }
 .container {
     display: flex;
@@ -14,8 +15,20 @@ td {
     height: 80px;
     border: 3px solid black;
     text-align: center;
+    font-size: xx-large;
     background-color: #393939;
 }
 td:hover{
     background-color: #696969 ;
+}
+
+.cent{
+    display: flex;
+    justify-content: center; /* Horizontal center */
+}
+
+.text_border{
+    min-width: 15vh;
+    padding-left: 10px;
+    padding-right: 10px;
 }
